@@ -95,13 +95,13 @@ public class Main {
         winning.add(diagonal2);
         for(List l : winning ){
             if(playerPositions.containsAll(l)){
-                return " Congratulations !! you won.";
+                return " Congratulations !! you won :) .";
             }
             else if(cpuPositions.containsAll(l)){
                 return "CPU wins! Sorry :(";
             }
             else if(playerPositions.size() + cpuPositions.size()== 9){
-                return "It is a tie.";
+                return "It is a tie.  -_- "  ;
             }
         }
         return null;
